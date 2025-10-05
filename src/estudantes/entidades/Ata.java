@@ -30,8 +30,8 @@ public class Ata extends Documento {
 
     @Override
     public boolean equals(Object o) {
-        if (super.equals(o)){
-            Ata a = (Ata)o;
+        if (super.equals(o)) {
+            Ata a = (Ata) o;
             return this.numero == a.numero && this.texto.equals(a.texto) && Arrays.equals(this.presentes, a.presentes);
         } else
             return false;

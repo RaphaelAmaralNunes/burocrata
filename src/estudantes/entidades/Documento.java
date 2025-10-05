@@ -9,7 +9,7 @@ import java.util.Objects;
  * <br><br>
  * <strong>Seu trabalho começa aqui...</strong>
  *
- * @author coloque os nomes dos autores aqui
+ * @author Raphael
  */
 public abstract class Documento {
 
