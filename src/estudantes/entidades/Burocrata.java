@@ -58,7 +58,20 @@ public class Burocrata {
      * @see professor.entidades.Universidade#removerDocumentoDoMonteDoCurso(estudantes.entidades.Documento, professor.entidades.CodigoCurso)
      * @see professor.entidades.Universidade#devolverDocumentoParaMonteDoCurso(estudantes.entidades.Documento, professor.entidades.CodigoCurso) 
      */
+
+    public int getEstresse(){
+        return estresse;
+    }
+
     public void trabalhar(){
         
+    }
+
+    public void estressar(){
+        estresse++;
+    }
+
+    public void estressarMuito(){
+        estresse += 10;
     }
 }
