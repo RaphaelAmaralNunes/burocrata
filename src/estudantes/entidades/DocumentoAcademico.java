@@ -20,7 +20,9 @@ public class DocumentoAcademico extends Documento {
         if (super.equals(o)) {
             DocumentoAcademico da = (DocumentoAcademico) o;
             return this.autenticacao == da.autenticacao;
-        } else return false;
+        } else {
+            return false;
+        }
     }
 
     @Override
