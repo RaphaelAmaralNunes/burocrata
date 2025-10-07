@@ -33,8 +33,7 @@ public class Ata extends Documento {
         if (super.equals(o)) {
             Ata a = (Ata) o;
             return this.numero == a.numero && this.texto.equals(a.texto) && Arrays.equals(this.presentes, a.presentes);
-        } else
-            return false;
+        } else return false;
     }
 
     @Override

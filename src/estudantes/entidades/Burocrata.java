@@ -63,7 +63,8 @@ public class Burocrata {
         return estresse;
     }
 
-    public void trabalhar() {}
+    public void trabalhar() {
+    }
 
     public void estressar() {
         estresse++;

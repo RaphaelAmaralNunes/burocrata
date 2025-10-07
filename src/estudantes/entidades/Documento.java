@@ -37,12 +37,9 @@ public abstract class Documento {
 
     @Override
     public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (o == null)
-            return false;
-        if (this.getClass() != o.getClass())
-            return false;
+        if (this == o) return true;
+        if (o == null) return false;
+        if (this.getClass() != o.getClass()) return false;
         Documento d = (Documento) o;
         return this.criador.equals(d.criador) && this.codigoCurso == d.codigoCurso && this.paginas == d.paginas;
     }
