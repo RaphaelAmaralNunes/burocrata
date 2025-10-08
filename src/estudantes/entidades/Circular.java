@@ -13,7 +13,7 @@ public class Circular extends Deliberacao {
         this.destinarios = destinarios;
     }
 
-    public String[] getDestinarios() {
+    public String[] getDestinatarios() {
         return destinarios;
     }
 

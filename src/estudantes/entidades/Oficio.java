@@ -13,7 +13,7 @@ public class Oficio extends Deliberacao {
         this.destinario = destinario;
     }
 
-    public String getDestinarios() {
+    public String getDestinatario() {
         return destinario;
     }
 
