@@ -12,7 +12,7 @@ import professor.entidades.Universidade;
  * @author Jean Cheiran
  */
 public class SimuladorEmTexto {
-    public final int TEMPO_DE_EXECUCAO = 60; //em segundos
+    public final int TEMPO_DE_EXECUCAO = 20; //em segundos
     
     private static SimuladorEmTexto instancia;
     private static Universidade universidade;

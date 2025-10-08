@@ -64,6 +64,10 @@ public class Burocrata {
     }
 
     public void trabalhar() {
+        Processo[] processos = mesa.getProcessos();
+        for (Processo processo : processos) {
+            universidade.despachar(processo);
+        }
     }
 
     public void estressar() {
