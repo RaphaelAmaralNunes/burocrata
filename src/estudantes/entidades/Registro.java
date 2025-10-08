@@ -17,6 +17,10 @@ public class Registro extends DocumentoAcademico {
         return estudante;
     }
 
+    public long getMatricula() {
+        return matricula;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (super.equals(o)) {
